@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 112 272)
+	(rect 16 16 160 272)
 	(text "MUX8_32" (rect 5 0 59 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 240 25 252)(font "Arial" ))
 	(port
@@ -107,7 +107,14 @@ applicable agreement for further details.
 		(text "E" (rect 21 203 28 217)(font "Arial" (font_size 8)))
 		(line (pt 0 208)(pt 16 208))
 	)
+	(port
+		(pt 144 32)
+		(output)
+		(text "O[31..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "O[31..0]" (rect 79 27 123 41)(font "Arial" (font_size 8)))
+		(line (pt 144 32)(pt 128 32)(line_width 3))
+	)
 	(drawing
-		(rectangle (rect 16 16 80 240))
+		(rectangle (rect 16 16 128 240))
 	)
 )
