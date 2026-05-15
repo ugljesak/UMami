@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 112 400)
+	(rect 16 16 168 400)
 	(text "MUX16_32" (rect 5 0 66 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 368 25 380)(font "Arial" ))
 	(port
@@ -152,15 +152,15 @@ applicable agreement for further details.
 	(port
 		(pt 0 320)
 		(input)
-		(text "S3" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "S3" (rect 21 315 36 329)(font "Arial" (font_size 8)))
+		(text "S2" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "S2" (rect 21 315 36 329)(font "Arial" (font_size 8)))
 		(line (pt 0 320)(pt 16 320))
 	)
 	(port
 		(pt 0 336)
 		(input)
-		(text "S4" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "S4" (rect 21 331 36 345)(font "Arial" (font_size 8)))
+		(text "S3" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "S3" (rect 21 331 36 345)(font "Arial" (font_size 8)))
 		(line (pt 0 336)(pt 16 336))
 	)
 	(port
@@ -170,7 +170,14 @@ applicable agreement for further details.
 		(text "E" (rect 21 347 28 361)(font "Arial" (font_size 8)))
 		(line (pt 0 352)(pt 16 352))
 	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "O[31..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "O[31..0]" (rect 87 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32)(line_width 3))
+	)
 	(drawing
-		(rectangle (rect 16 16 80 368))
+		(rectangle (rect 16 16 136 368))
 	)
 )
