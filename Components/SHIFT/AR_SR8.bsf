@@ -37,6 +37,13 @@ applicable agreement for further details.
 		(text "o[7..0]" (rect 71 27 107 40)(font "Arial" (font_size 8)))
 		(line (pt 128 32)(pt 112 32)(line_width 3))
 	)
+	(port
+		(pt 128 48)
+		(output)
+		(text "c" (rect 0 0 8 13)(font "Arial" (font_size 8)))
+		(text "c" (rect 99 43 107 56)(font "Arial" (font_size 8)))
+		(line (pt 128 48)(pt 112 48))
+	)
 	(drawing
 		(rectangle (rect 16 16 112 80))
 	)

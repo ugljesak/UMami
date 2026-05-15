@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 176 96 344 112)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "a[15..0]" (rect 5 0 43 11)(font "Arial" ))
+	(text "a[15..0]" (rect 5 0 42 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -52,6 +52,23 @@ applicable agreement for further details.
 	)
 	(annotation_block (location)(rect 1024 232 1080 248))
 )
+(pin
+	(output)
+	(rect 664 160 840 176)
+	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
+	(text "c" (rect 90 0 97 11)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 864 200 1072 240))
+)
 (symbol
 	(rect 360 192 392 224)
 	(text "GND" (rect 8 16 30 26)(font "Arial" (font_size 6)))
@@ -75,7 +92,12 @@ applicable agreement for further details.
 	(pt 376 168)
 )
 (connector
-	(text "a[0],a[15..1]" (rect 432 88 492 99)(font "Arial" ))
+	(text "a[0]" (rect 616 152 634 163)(font "Arial" ))
+	(pt 664 168)
+	(pt 608 168)
+)
+(connector
+	(text "a[15],a[15..1]" (rect 432 88 498 99)(font "Arial" ))
 	(pt 640 104)
 	(pt 424 104)
 	(bus)
